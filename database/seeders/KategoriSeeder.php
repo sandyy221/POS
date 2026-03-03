@@ -11,11 +11,11 @@ class KategoriSeeder extends Seeder
     public function run(): void
     {
         $data = [
-            ['kategori_kode' => 'FNB', 'kategori_nama' => 'Food & Beverage'],
-            ['kategori_kode' => 'BTH', 'kategori_nama' => 'Beauty & Health'],
-            ['kategori_kode' => 'HMC', 'kategori_nama' => 'Home Care'],
-            ['kategori_kode' => 'BYK', 'kategori_nama' => 'Baby & Kid'],
-            ['kategori_kode' => 'ELE', 'kategori_nama' => 'Elektronik'],
+            ['kategori-kode' => 'FNB', 'kategori-nama' => 'Food & Beverage'],
+            ['kategori-kode' => 'BTH', 'kategori-nama' => 'Beauty & Health'],
+            ['kategori-kode' => 'HMC', 'kategori-nama' => 'Home Care'],
+            ['kategori-kode' => 'BYK', 'kategori-nama' => 'Baby & Kid'],
+            ['kategori-kode' => 'ELE', 'kategori-nama' => 'Elektronik'],
         ];
         
         DB::table('m_kategori')->insert($data);

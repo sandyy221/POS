@@ -4,6 +4,7 @@ namespace Database\Seeders;
 
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
+use illuminate\Support\Facades\DB;
 
 class LevelSeeder extends Seeder
 {

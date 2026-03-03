@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\LevelController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\ProductController;
@@ -21,4 +22,6 @@ Route::prefix('category')->group(function () {
 Route::get('/user/{id}/name/{name}', [UserController::class, 'profile']);
 
 // Halaman Penjualan (POS)
-Route::get('/sales', [SalesController::class, 'index']);
+
+
+Route::get('/Level', [LevelController::class, 'index']);
